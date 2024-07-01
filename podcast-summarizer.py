@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 PROJECT_ID = os.getenv('VERTEX_IA_PROJECT') 
 REGION = os.getenv('VERTEX_IA_REGION')
 DEPENDENCIES_FOLDER ='/mnt/common' 
-INBOX_CHANNEL = 'podcaster-transcriber'
+INBOX_CHANNEL = 'podcast-summarizer'
 url_pattern = re.compile(r'https?://\S+')
 DOWNLOAD_FOLDER = 'downloads'
 
