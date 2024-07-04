@@ -1,3 +1,6 @@
-discord
-google-api-python-client
-vertexai
+discord.py>=2.3.2
+youtube-transcript-api>=0.6.2
+google-api-python-client>=2.130.0
+vertexai>=1.49.0
+playwright>=1.43.0
+requests>=2.31.0
