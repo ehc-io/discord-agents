@@ -17,6 +17,7 @@ YOUTUBE_DATA_API_KEY = os.getenv('YOUTUBE_DATA_API_KEY')
 INBOX_CHANNEL = 'youtube-summarizer'
 url_pattern = re.compile(r'https?://(?:www\.)?youtube\.com/watch\?v=[\w-]+')
 
+
 PROMPT_SUMMARY = """
 # ANALYSIS INSTRUCTIONS:
 Purpose: Your job is to provide a summary of the YouTube video presented to you, following the guidelines below.
